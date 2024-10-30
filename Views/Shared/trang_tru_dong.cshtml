@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/csstrang_tru_dong.css" rel="stylesheet" />
+    <style>
+        
+
+        .khoi1 {
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+        }
+
+        .khungdieukhoang {
+            display: flex; /* Sử dụng flexbox để các khối nằm cùng hàng */
+            justify-content: space-around; /* Căn đều khoảng cách giữa các khối */
+            color: #666666;
+            background-color: #F8E0E0;
+            width: 100%;
+        }
+
+            .khungdieukhoang p {
+                font-size: 20px;
+                color: #666666;
+            }
+
+
+    </style>
+</head>
+<body style="background-color:#FAFAFA">
+
+    <div class="tongtrang">
+        <span style="color:#247BCA">Trang chủ </span><span>  → Thực phẩm trữ đông  </span>
+        <br>
+        <div class="khungthuonghieu">
+            <p style="font-size:20px;color:#666666;">Thương hiệu:</p>
+            <p><input type="checkbox">Khác</p>
+            <p><input type="checkbox">CtyTNHH CJFoodsVN-CN HPhuoc(CT) - Lo EA2-7 KCN HiepPhuoc,Xa HiepPhuoc, H.Nha Be, HCM</p>
+            <p><input type="checkbox">CTy CP VN Ky Nghe Suc San - 420 No Trang Long, P.13 Q.BT, HCM</p>
+            <p><input type="checkbox">CTY CP Sai Gon Food - C24-24B/II,C25/II Duong2F,KCNVinhLoc, xa Vinh Loc A, Bình Chánh, HCM</p>
+            <p><input type="checkbox">TY CP Sai Gon Food-NR - Lo C24-24B/IIDuong2F,KCN VinhLoc BC, HCM</p>
+            <p><input type="checkbox">Cty TNHH CPV Food-TPCN - KCN Becamex B.Phuoc,Xa Minh Thanh,, H.Chon Thanh,Binh Phuoc</p>
+            <p><input type="checkbox">Cty TNHH SXTM DV TP Ngon Ngon - 58/2G Ap My Hoa 3,xa Tan Xuan,H.Hoc Mon, Tp.HCM</p>
+            <p><input type="checkbox">Cty Co Phan Dai Thuan Phan Phoi - 59-61 Nguyen Truong To,P.13,Quan 4,, Ho Chi Minh</p>
+            <p><input type="checkbox">CTY TNHH TM Toan Gia Hiep Phuoc - 618 Nguyen Thi Tu,P.Phu Huu,TP.TDuc, Ho Chi Minh</p>
+            <p><input type="checkbox">Cty TNHH SX-TM DV Hien Thao - 56A Duong so 39,KP4,P.Tan Quy,Q7, Tp.HCM</p>
+
+            <br>
+            <p style="font-size:20px;color:#666666;">Loại sản phẩm:</p>
+            <p><input type="checkbox">THỰC PHẨM TRỮ ĐÔNG</p>
+            <p><input type="checkbox">Thực Phẩm Trữ Đông</p>
+
+            <br>
+            <p style="font-size:20px;color:#666666;">Giá:</p>
+            <p><input type="checkbox">< 30,000VND</p>
+            <p><input type="checkbox">30,000VND - 50,000VND</p>
+            <p><input type="checkbox">50,000VND - 100,000VND</p>
+            <p><input type="checkbox">100,000VND - 200,000VND</p>
+            <p><input type="checkbox">> 200,000VND</p>
+
+        </div>
+        <div class="trangsanpham">
+            <div class="webtrudong">
+                <div class="loaitrudong">
+                    <div>
+
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/banh_mandu.png" class="hinhanhsanpham">
+                        
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Bánh ManDu hải sản 350g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>61,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/bun_rieu_cua_dong.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Bún riêu cua đồng 500g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>37,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/ca_vien_ba_sa.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Cá viên basa 200g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>18,200VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/ca_vien_tan_viet.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Cá viên Tân Việt SIN 200g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>36,000VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <hr>
+            <div class="webtrudong">
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/canh_ga_chien_gion.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Cánh gà chiên giòn 400g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>82,000VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/cha_gio_tom.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br><br>
+                    <div align="center" style="font-size:17px"><p>Chả giò hải sản tôm 400g</p></div>
+
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>79,000VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/cha_ram_tom.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Chả ram tôm đất mini 300g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>65,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/com_chien_ca_man.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br><br>
+                    <div align="center" style="font-size:17px"><p>Cơm chiên cá mặn 250g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>28,000VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="webtrudong">
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/com_chien_hai_san.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Cơm chiên hải sản 200g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>28,000VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/dui_ga_chien.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br>
+                    <div align="center" style="font-size:17px"><p>Đùi gà chiên giòn 500g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>98,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/ha_cao_mini.png" class="hinhanhsanpham">
+                    </div>
+                    <br><br><br>
+                    <div align="center" style="font-size:17px"><p>Há cảo mini Câu Tre 500g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>80,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="loaitrudong">
+                    <div>
+                        <img src="~/Content/img/tenhang.png" />
+                    </div>
+                    <div>
+                        <img src="~/Content/img/mien_ga.png" class="hinhanhsanpham">
+                    </div>
+                    <br>
+                    <div align="center" style="font-size:17px"><p>Miến gà SGFOOD 500g</p></div>
+                    <div align="center" style="font-size:15px;color:#FF5100"><p>37,500VND</p></div>
+                    <div align="center">
+                        <input type="number" class="quantity-input" min="1" value="1">
+                    </div>
+                    <div align="center">
+                        <input type="submit" value="CHỌN MUA" class="chonmua" style="border-radius: 20px;">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="chuyentrang" align="center">
+                <span>← Trang trước  1 </span><span> 2  Trang sau  →</span>
+            </div>
+        </div>    
+    </div>
+    <div class="khungdieukhoang">
+        <div class="khoi1">
+            <div>
+                <img src="~/Content/img/tenhang2.png" />
+            </div>
+            <div>
+                Cửa hàng - bách hóa hiện đại Co.opSmile
+                là thành viên của nhà
+                bán lẻ hàng đầu
+                Việt Nam Saigon Co.op
+                <br>
+                <br>
+                Đ/c văn phòng:
+                131 Điện Biên Phủ, Phường 15,
+                Quận Bình Thạnh, Tp. HCM
+                info@coopsmile.vn
+                0911.825753
+            </div>
+        </div>
+        <div class="khoi2">
+            <div>
+                <p><b>Hỗ trợ khách hàng</b></p>
+            </div>
+            <div>
+
+                <li>Điều khoản dịch vụ</li>
+                <li>Chính sách bảo mật</li>
+                <li>Chính sách đặt hàng</li>
+                <li>Chính sách giao nhận</li>
+                <li>Chính sách đổi trả hàng</li>
+                <li>Xuất hóa đơn GTGT</li>
+
+            </div>
+        </div>
+        <div class="khoi3">
+            <div>
+                <p><b>Thông tin</b></p>
+            </div>
+            <div>
+                <li>Giới thiệu về Co.opSmile</li>
+                <li>Câu chuyện thương hiệu</li>
+                <li>Tuyển dụng</li>
+                <li>Hệ thống cửa hàng</li>
+                <li>Thông tin hỗ trợ khách hàng</li>
+            </div>
+        </div>
+        <div class="khoi4">
+            <div>
+                <p><b>Thông tin hữu ích</b></p>
+            </div>
+            <div>
+                <li>Quyền lợi thẻ thành viên</li>
+                <li>Khuyến mãi nổi bật</li>
+                <li>Thông tin - sự kiện</li>
+            </div>
+        </div>
+        <div class="khoi5">
+            <div>
+                <p><b>Chứng nhận</b></p>
+            </div>
+            <div>
+                <img src="~/Content/img/thongbao.png" />
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

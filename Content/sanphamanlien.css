@@ -1,0 +1,93 @@
+﻿.tongtrang {
+    margin: 10px;
+    padding: 10px;
+    color: #666666;
+}
+
+.trangsanpham {
+    border: thin silver solid;
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.webanlien {
+    width: 100%;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+    display: flex; /* Sử dụng flexbox để các khối nằm cùng hàng */
+    justify-content: space-around; /* Căn đều khoảng cách giữa các khối */
+}
+
+.khungthuonghieu {
+    width: 20%;
+    float: left;
+    color: #247BCA;
+}
+
+    .khungthuonghieu p {
+        font-size: 15px;
+    }
+
+.loaianlien {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+    /*border:thin silver solid;*/
+}
+
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.hinhanhsanpham {
+    display: block; /* Biến hình ảnh thành khối */
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+
+.chonmua {
+    margin: 10px;
+    padding: 10px;
+    color: #FF5100;
+    background-color: white;
+    border: 1px solid #FF5100;
+    cursor: pointer;
+}
+
+    .chonmua:hover {
+        color: white;
+        background-color: #FF5100;
+        border-color: white;
+    }
+
+.chuyentrang {
+    margin: 10px;
+    padding: 10px;
+    /*letter-spacing: 2px;*/
+}
+.khoi1 {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+.khungdieukhoang {
+    display: flex; /* Sử dụng flexbox để các khối nằm cùng hàng */
+    justify-content: space-around; /* Căn đều khoảng cách giữa các khối */
+    color: #666666;
+    background-color: #F8E0E0;
+    width: 100%;
+}
+
+    .khungdieukhoang p {
+        font-size: 20px;
+        color: #666666;
+    }
