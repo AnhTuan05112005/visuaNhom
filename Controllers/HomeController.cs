@@ -26,6 +26,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult TrangwebBanbia()
+        {
+            return View();
+        }
         public ActionResult Diachi()
         {
             return View();

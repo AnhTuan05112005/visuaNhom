@@ -156,6 +156,21 @@
     <Content Include="Content\img\com_chien_hai_san.png" />
     <Content Include="Content\img\dui_ga_chien.png" />
     <Content Include="Content\img\ha_cao_mini.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_333_lon_thùng.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_heniken_lon.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_heniken_thung.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_hoegaarden _rose.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_HUDWESIER.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_ken_silver.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_larue_loc.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_larue_special_locc.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_larue_special_thung.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_larue_thung.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_saigon_lager_loc.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\bia_saigon_lager_thung.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\tenhang.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\tenhang2.png" />
+    <Content Include="Content\img\img_bia_ncgiaikhat\thongbao.png" />
     <Content Include="Content\img\img_diachi\tenhang.png" />
     <Content Include="Content\img\img_kem\kembanhquy.png" />
     <Content Include="Content\img\img_kem\kemca.png" />
@@ -191,6 +206,7 @@
     <Content Include="Content\img\thongbao.png" />
     <Content Include="Content\sanphamanlien.css" />
     <Content Include="Content\trangweb_ban_kem.css" />
+    <Content Include="Content\trang_bia.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -233,6 +249,8 @@
     <Content Include="Views\Home\Diachi.cshtml" />
     <Content Include="Views\Shared\trang_kem.cshtml" />
     <Content Include="Views\Home\TrangwebBanKem.cshtml" />
+    <Content Include="Views\Shared\Trang_bia_ncgiaikhat.cshtml" />
+    <Content Include="Views\Home\TrangwebBanbia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
